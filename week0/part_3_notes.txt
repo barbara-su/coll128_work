@@ -1,0 +1,80 @@
+Hackers and painters are similar because both are makers. Their core activity is
+designing and building "good things" for human use and appreciation, not doing
+science as an end in itself.
+
+The term "computer science" is criticized as misleading. It bundles together
+loosely related groups, such as mathematicians, experimental algorithm
+researchers, and practical software builders, which creates confusion about what
+the field actually is. This mislabeling matters most for hackers in universities
+and labs. If hacking is framed as science, hackers feel pressure to produce
+research papers, even when the real achievement is the software itself, which
+can distort priorities.
+
+Publication is an easy but imperfect proxy for quality. Institutions prefer
+metrics that are simple to apply, even when they encourage work that is "meaty"
+for papers rather than genuinely beautiful or well-designed.
+
+The author argues that beautiful software is often produced by subtle refinements
+or recombining existing ideas. This kind of contribution is hard to capture in a
+conventional research narrative, so it is undervalued by paper-centric
+evaluation.
+
+A key warning is that the biggest danger is misunderstanding your own work.
+Hackers may mistakenly think they should become theorists, when in fact they
+need only limited theory, roughly like how painters need some chemistry but not
+deep chemical expertise.
+
+Programming is compared to sketching. Many hackers write rough, broken code and
+iteratively shape it into something correct and elegant, rather than fully
+specifying everything in advance on paper.
+
+This supports the claim that tools should be malleable. A programming language
+should support rapid iteration and changing one’s mind, like a pencil rather
+than a pen, which motivates skepticism about strict static typing for
+exploratory design.
+
+The author also critiques "math envy," the tendency to make work look formal
+because formulas appear impressive. This can push people toward problems that
+are easy to formalize instead of problems that are important or valuable.
+
+Universities and companies misclassify hackers in different ways. Academia
+pressures them to act like scientists, while large companies often treat them
+like implementers executing product-manager specifications, reducing the role of
+design.
+
+Startups can win design battles because they combine design and implementation
+in the same small team. Large companies often reduce variance by designing by
+committee, which prevents disasters but also suppresses excellence.
+
+Because the software that is fun to write does not always make money, many
+makers adopt a "day job" model. Open-source development fits this pattern: paid
+work supports the pursuit of beautiful projects done for love.
+
+Learning to hack is presented as learning by doing and learning from examples.
+Like painters copying masters, programmers improve by reading good source code,
+and open source expands access to these examples.
+
+Software design should assume that initial specifications will be imperfect.
+Like paintings that are repeatedly revised, programs should be built to
+accommodate change, and premature design can be as harmful as premature
+optimization.
+
+Great work requires relentlessness about details, including details users may
+never explicitly notice. Internal code quality, clarity, and aesthetics matter
+because the accumulation of small choices shapes the overall experience.
+
+Creative work comes in cycles of high and low motivation. A practical strategy
+is to keep some routine tasks available for low-energy phases, so progress can
+continue without stalling.
+
+Collaboration works best when modules have clear ownership and carefully
+designed interfaces. Code that is edited by many people without ownership tends
+to accumulate "cruft" and lose coherence.
+
+Empathy is presented as central to great software. Great hackers can see from
+the user’s point of view, explain concepts to nontechnical audiences, and write
+software and source code that "explain themselves."
+
+Finally, the author frames hacking as a young medium in its creative prime.
+Prestige often lags behind real achievement, so the cultural importance of
+hacking may become clearer only later, depending on what makers build with it.
