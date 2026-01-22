@@ -3,7 +3,7 @@ The kernel controls the machine’s resources.
 The shell is the interface between the user and the kernel: it reads commands and interprets them.
 Utilities are programs (for example, compilers and user-written programs) that do actual tasks.
 
-A core Unix idea is that programs are “building blocks.”
+A core Unix idea is that programs are "building blocks".
 They are designed to do simple jobs well, and users can glue them together in many combinations.
 This makes the system flexible for many different workflows.
 
@@ -13,22 +13,22 @@ Programs generally do not need to know where their input comes from or where the
 They simply read from standard input and write to standard output.
 
 Example: spelling checking can be built from multiple simple programs connected in a pipeline.
-One can break text into one word per line (a “makewords” style step).
+One can break text into one word per line (a "makewords" style step).
 Then convert words to lowercase, sort them alphabetically, and remove duplicates (unique).
-Finally, compare against a dictionary (a “mismatch” style step) to print words not in the dictionary.
+Finally, compare against a dictionary (a "mismatch" style step) to print words not in the dictionary.
 This creates a single end-to-end spelling checker from about five cooperating programs.
 
 Once misspellings are identified, the dictionary can be improved over time.
-There can be false negatives (valid words flagged as wrong), so users may add words like “timesharing” or “unix” to reduce errors.
+There can be false negatives (valid words flagged as wrong), so users may add words like "timesharing" or "unix" to reduce errors.
 The broader point is that many tasks can be expressed as pipelines when programs follow standard input/output conventions.
 
 Unix also benefited from advances in text algorithms, especially pattern matching from automata and language theory.
 As pattern matching techniques improved, they could be packaged into Unix tools and shared broadly.
 This helped build a strong community ecosystem of reusable utilities.
 
-The “heart” of Unix is the file system, which stores information for long periods of time.
+The "heart" of Unix is the file system, which stores information for long periods of time.
 Unix treats a file as a sequence of bytes with a size.
-It avoids requiring extra semantic attributes about what the file “means,” which supports interchangeability and simplicity.
+It avoids requiring extra semantic attributes about what the file "means," which supports interchangeability and simplicity.
 
 The file system is hierarchical.
 Directories can contain files and other directories, recursively.
@@ -46,7 +46,7 @@ A useful idea is that a file can contain a list of shell commands (a script).
 Instead of typing many commands manually, you can store them in a file and tell the shell to execute that file.
 This makes workflows reproducible and easier to reuse.
 
-Example: a plotting workflow might be stored in a “plot” file containing the commands needed to generate a plot.
+Example: a plotting workflow might be stored in a "plot" file containing the commands needed to generate a plot.
 Running that file executes the full sequence automatically, instead of retyping each step.
 
 Input/output redirection generalizes program usage.
